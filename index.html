@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Gn5384xqQ1QSvI3+HK/8QOp6r6Llf01zj2qM5/cNXLGBfQ7IaGOW06UafZLsP6xKz3eP6XXkgMlT2+I3ZgImcvA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Git Workflow</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fab fa-git-alt"></i> Git Workflow</h1>
+            <p>Um guia visual para o fluxo de trabalho do Git.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="clone">
+            <h2><i class="fas fa-clone"></i> Clone</h2>
+            <p>Clone um repositório remoto para o seu computador.</p>
+            <code>git clone [URL]</code>
+        </section>
+
+        <section id="branch">
+            <h2><i class="fas fa-code-branch"></i> Branch</h2>
+            <p>Crie ramos para desenvolver funcionalidades isoladamente.</p>
+            <code>git branch [nome-do-ramo]</code>
+        </section>
+
+        <section id="commit">
+            <h2><i class="fas fa-check-square"></i> Commit</h2>
+            <p>Registre as alterações no repositório.</p>
+            <code>git commit -m "Mensagem"</code>
+        </section>
+
+        <section id="merge">
+            <h2><i class="fas fa-code-merge"></i> Merge</h2>
+            <p>Combine ramos para integrar as alterações.</p>
+            <code>git merge [nome-do-ramo]</code>
+        </section>
+
+        <section id="pull-request">
+            <h2><i class="fas fa-pull-request"></i> Pull Request</h2>
+            <p>Solicite a integração das alterações no repositório principal.</p>
+            <code>git pull-request</code>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Tom Maldonado Martinez / 10 de Novembro de 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
